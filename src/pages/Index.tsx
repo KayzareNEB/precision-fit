@@ -1,19 +1,11 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
-import PositioningSection from "@/components/PositioningSection";
-import WhyItMattersSection from "@/components/WhyItMattersSection";
-import InvestorForm from "@/components/InvestorForm";
-import UpdatesSignup from "@/components/UpdatesSignup";
 import Footer from "@/components/Footer";
 
 const Index = () => (
-  <main>
+  <main className="flex flex-col min-h-screen">
     <Navbar />
     <HeroSection />
-    <PositioningSection />
-    <WhyItMattersSection />
-    <InvestorForm />
-    <UpdatesSignup />
     <Footer />
   </main>
 );

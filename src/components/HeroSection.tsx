@@ -33,13 +33,13 @@ const HeroSection = () => {
         <FadeIn delay={0.36} className="flex flex-col sm:flex-row gap-4 mt-10">
           <button
             onClick={() => setInvestorOpen(true)}
-            className="px-8 py-3.5 bg-primary text-primary-foreground text-sm tracking-wide hover:opacity-90 transition-opacity"
+            className="px-8 py-3.5 rounded-md bg-primary text-primary-foreground text-sm tracking-wide hover:opacity-85 transition-opacity"
           >
             Investor Enquiries
           </button>
           <button
             onClick={() => setUpdatesOpen(true)}
-            className="px-8 py-3.5 border border-foreground/30 text-foreground text-sm tracking-wide hover:border-foreground transition-colors"
+            className="px-8 py-3.5 rounded-md bg-primary text-primary-foreground text-sm tracking-wide hover:opacity-85 transition-opacity"
           >
             Get Updates
           </button>

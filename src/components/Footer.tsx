@@ -12,6 +12,7 @@ const Footer = ({ onOpenPrivacy, onOpenTerms, onOpenCookies }: Props) => (
     <div className="flex flex-col md:flex-row items-center justify-between gap-6">
       <div className="flex items-center gap-6">
         <img src={logo} alt="N.E. Body" className="h-6 w-auto" />
+        <span className="text-[11px] text-muted-foreground/50 tracking-wide">© 2026 N.E. Body. All rights reserved.</span>
         <a
           href="mailto:hello@nebody.co.uk"
           className="text-xs text-muted-foreground hover:text-foreground transition-colors"

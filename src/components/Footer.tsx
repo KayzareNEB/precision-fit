@@ -1,8 +1,8 @@
 import logo from "@/assets/logo.png";
 
 const Footer = () => (
-  <footer className="py-8 px-6 border-t border-border/40">
-    <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+  <footer className="py-8 px-10 md:px-16 border-t border-border/40">
+    <div className="flex flex-col md:flex-row items-center justify-between gap-6">
       <div className="flex items-center gap-6">
         <img src={logo} alt="N.E. Body" className="h-6 w-auto" />
         <a

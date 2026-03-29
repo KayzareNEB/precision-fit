@@ -10,12 +10,12 @@ const HeroSection = () => {
 
   return (
     <>
-      <section className="flex-1 flex flex-col items-center justify-center px-6 pt-16 pb-6">
+      <section className="flex-1 flex flex-col items-center justify-center px-8 md:px-16 pt-12 pb-6">
         <FadeIn>
           <img
             src={logo}
             alt="N.E. Body"
-            className="h-36 md:h-48 lg:h-56 w-auto mb-16 mx-auto"
+            className="h-48 md:h-64 lg:h-72 w-auto mb-20 mx-auto"
           />
         </FadeIn>
         <FadeIn delay={0.12}>

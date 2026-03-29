@@ -10,12 +10,16 @@ const HeroSection = () => {
 
   return (
     <>
-      <section className="flex-1 flex flex-col items-center justify-center px-6 pt-20 pb-8">
+      <section className="flex-1 flex flex-col items-center justify-center px-6 pt-16 pb-6">
         <FadeIn>
-          <img src={logo} alt="N.E. Body" className="h-20 md:h-28 w-auto mb-14 mx-auto" />
+          <img
+            src={logo}
+            alt="N.E. Body"
+            className="h-36 md:h-48 lg:h-56 w-auto mb-16 mx-auto"
+          />
         </FadeIn>
         <FadeIn delay={0.12}>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-light tracking-tight text-center leading-[1.08] max-w-4xl text-foreground">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-light tracking-tight text-center leading-[1.08] max-w-4xl">
             Fit Made Personal.
             <br />
             Shopping Made Precise.
@@ -35,7 +39,7 @@ const HeroSection = () => {
           </button>
           <button
             onClick={() => setUpdatesOpen(true)}
-            className="px-8 py-3.5 border border-foreground text-foreground text-sm tracking-wide hover:bg-foreground hover:text-background transition-colors"
+            className="px-8 py-3.5 border border-foreground/30 text-foreground text-sm tracking-wide hover:border-foreground transition-colors"
           >
             Get Updates
           </button>
@@ -44,7 +48,7 @@ const HeroSection = () => {
           <p className="mt-10 text-xs tracking-wide text-muted-foreground text-center">
             Patent pending · Pre-seed · UK-based
           </p>
-          <p className="mt-2 text-[11px] tracking-wide text-muted-foreground/60 text-center">
+          <p className="mt-2 text-[11px] tracking-wide text-muted-foreground/50 text-center">
             Full materials available upon request.
           </p>
         </FadeIn>

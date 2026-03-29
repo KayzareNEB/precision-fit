@@ -15,7 +15,7 @@ const InvestorModal = ({ open, onOpenChange }: Props) => {
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogContent
-        className="w-[92vw] sm:max-w-lg p-0 gap-0 border-none shadow-2xl rounded-xl max-h-[85vh] sm:max-h-[90vh] flex flex-col overflow-hidden"
+        className="w-[94vw] sm:w-full sm:max-w-xl p-0 gap-0 border-none shadow-2xl rounded-xl flex flex-col overflow-visible"
         style={{ backgroundColor: '#F4F0ED' }}
       >
         <DialogHeader className="px-5 sm:px-8 pt-5 sm:pt-8 pb-2 sm:pb-4 shrink-0">
@@ -26,11 +26,11 @@ const InvestorModal = ({ open, onOpenChange }: Props) => {
             Register your interest and we'll be in touch shortly.
           </DialogDescription>
         </DialogHeader>
-        <div className="px-3 sm:px-8 pb-4 sm:pb-8 flex-1 min-h-0 overflow-y-auto">
+        <div className="px-3 sm:px-8 pb-4 sm:pb-8">
           <iframe
             src="https://api.onsync.ai/widget/form/zBg28F7Ctrpy0xGzBsSe"
             className="w-full border-none"
-            style={{ height: '460px' }}
+            style={{ height: '600px' }}
             title="Investor Enquiries Form"
           />
         </div>
